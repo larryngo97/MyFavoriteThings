@@ -18,9 +18,7 @@ public class ViewActivity extends MainActivity{
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_view);
-        tv_title = findViewById(R.id.view_title);
-        iv_image = findViewById(R.id.view_image);
-        tv_desc = findViewById(R.id.view_desc);
+        init();
 
         if(getIntent().hasExtra("viewObject"))
         {
@@ -41,6 +39,13 @@ public class ViewActivity extends MainActivity{
             Intent intent = new Intent(ViewActivity.this, MainActivity.class);
             startActivity(intent);
         }
+    }
+
+    public void init()
+    {
+        tv_title = findViewById(R.id.view_title);
+        iv_image = findViewById(R.id.view_image);
+        tv_desc = findViewById(R.id.view_desc);
     }
 
     @Override
