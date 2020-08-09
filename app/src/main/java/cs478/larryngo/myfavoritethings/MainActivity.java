@@ -16,6 +16,7 @@ import android.widget.TextView;
 import org.w3c.dom.Text;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class MainActivity extends AppCompatActivity {
     private TextView tv_title;
@@ -58,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             String date = cursor.getString(4);
 
             list.add(new FavoriteObject(title, image, info, date, id));
-            adapter.notifyDataSetChanged();
+            Collections.reverse(list); //reverse the list so the newest will be shown first
             tv_title.setVisibility(View.GONE); //removes the title screen
         }
     }
@@ -75,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
         if(getIntent().hasExtra("favorite_thing")){
             object = getIntent().getParcelableExtra("favorite_thing"); //receives object
             list.add(object); //adds to the list
-            setupGrid(); //updates the grid
         }
 
         button_new.setOnClickListener(new View.OnClickListener() {
