@@ -16,6 +16,7 @@ due to storing in a SQLite database.
 ## Steps
 
 Use these steps to go through the app when you open it up
+
 1. Click New
 2. Click Title to change title. Type in a new title. Click ok.
 3. Click on Select Image, accept permissions, and go through gallery to select an image.
