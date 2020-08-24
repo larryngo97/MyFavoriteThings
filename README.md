@@ -1,6 +1,6 @@
 ## MyFavoriteThings by Larry Ngo
 
-This is an application for Bon App Boutique to show favorite things in a list.
+This is an application to show favorite things in a list.
 
 ---
 
@@ -11,11 +11,11 @@ and a description. When they are satisfied with their event, they can click the 
 ommitted. They can either add another event or click on their event to view it. They may close the application and go back to it to see that their events have been saved
 due to storing in a SQLite database.
 
-![](https://bitbucket.org/larryngo/myfavoritethings/raw/7e2839e70d5e2fa83cf695e2ab36be2d149d725f/demo/1.JPG) 
-![](https://bitbucket.org/larryngo/myfavoritethings/raw/7e2839e70d5e2fa83cf695e2ab36be2d149d725f/demo/2.JPG) 
-![](https://bitbucket.org/larryngo/myfavoritethings/raw/7e2839e70d5e2fa83cf695e2ab36be2d149d725f/demo/3.JPG)
-![](https://bitbucket.org/larryngo/myfavoritethings/raw/7e2839e70d5e2fa83cf695e2ab36be2d149d725f/demo/4.JPG) 
-![](https://bitbucket.org/larryngo/myfavoritethings/raw/7e2839e70d5e2fa83cf695e2ab36be2d149d725f/demo/5.JPG)
+![](https://github.com/larryngo97/MyFavoriteThings/blob/master/demo/1.JPG?raw=true) 
+![](https://github.com/larryngo97/MyFavoriteThings/blob/master/demo/2.JPG?raw=true) 
+![](https://github.com/larryngo97/MyFavoriteThings/blob/master/demo/3.JPG?raw=true)
+![](https://github.com/larryngo97/MyFavoriteThings/blob/master/demo/4.JPG?raw=true) 
+![](https://github.com/larryngo97/MyFavoriteThings/blob/master/demo/5.JPG?raw=true)
 
 ---
 
